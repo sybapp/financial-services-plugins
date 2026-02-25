@@ -29,7 +29,9 @@ Use `skill: "comps-analysis"` to build the analysis:
    - Same industry/sector
    - Geographic comparability
 
-3. **Gather data** (prioritize MCP sources if available):
+3. **Gather data** (use best available source tier):
+   - Default: retail/free stack (SEC EDGAR + Alpha Vantage/Twelve Data + Yahoo Finance/IR cross-checks)
+   - Optional enhancement: institutional MCP data if configured
    - Operating metrics: Revenue, Growth, Gross Margin, EBITDA, EBITDA Margin
    - Valuation: Market Cap, Enterprise Value, EV/Revenue, EV/EBITDA, P/E
    - Additional metrics based on industry (Rule of 40 for SaaS, etc.)

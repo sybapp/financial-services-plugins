@@ -114,7 +114,7 @@ This workflow document focuses on execution steps. Reference the methodology fil
 
    Inputs:
    - Risk-Free Rate: [Current 10-year Treasury, e.g., 4.2%]
-   - Beta: [Company beta from Bloomberg/FactSet or peer average]
+   - Beta: [Company beta from free providers (Yahoo Finance/Alpha Vantage) or peer average]
    - Equity Risk Premium: 5-6% (historical average)
 
    Example:
@@ -309,9 +309,9 @@ Base Case: Rev CAGR = 25%, EBITDA Margin = 32% → $56
 - EBITDA margin
 
 **Data sources:**
-- FactSet, CapitalIQ, Bloomberg (preferred)
+- Free/public market data sources (Yahoo Finance, Alpha Vantage, SEC filings)
 - Company 10-Ks/10-Qs for actuals
-- Consensus estimates from Yahoo Finance, Seeking Alpha (if pro tools unavailable)
+- Consensus estimates from Yahoo Finance, Seeking Alpha, or other free/public sources
 
 #### C. Calculate Valuation Multiples
 
@@ -349,7 +349,7 @@ Median               38.9     3.5x    3.2x    15.2x      13.8x      25x   17%   
 Minimum              28.5     2.8x    2.6x    12.8x      11.2x      20x   12%     22%
 
 Note: Market data as of [Date]. LTM = Last Twelve Months. NTM = Next Twelve Months.
-Source: FactSet, company filings, [Analyst] estimates.
+Source: Free/public data, company filings, [Analyst] estimates.
 ```
 
 **CRITICAL**: The statistical summary (max/75th/median/25th/min) is MANDATORY.
@@ -416,7 +416,7 @@ Q1 2023  Comp E       PE Firm        $3.2B    3.5x    13.5x      25%      Carve-
 
 Median                                        4.0x    15.8x      32%
 
-Source: CapitalIQ, company filings, press releases.
+Source: SEC filings, company filings, press releases.
 ```
 
 #### B. Apply to Target Company

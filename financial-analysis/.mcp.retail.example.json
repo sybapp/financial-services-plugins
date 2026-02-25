@@ -1,0 +1,45 @@
+{
+  "mcpServers": {
+    "twelve-data": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mcp.twelvedata.com/mcp",
+        "--header",
+        "x-api-key:REPLACE_WITH_TWELVEDATA_API_KEY"
+      ]
+    },
+    "sec-edgar": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "SEC_EDGAR_USER_AGENT=Your Name (your@email.com)",
+        "stefanoamorelli/sec-edgar-mcp:latest"
+      ]
+    },
+    "fred": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "fred-mcp-server"
+      ],
+      "env": {
+        "FRED_API_KEY": "REPLACE_WITH_FRED_API_KEY"
+      }
+    },
+    "alpha-vantage": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-alphavantage"
+      ],
+      "env": {
+        "ALPHAVANTAGE_API_KEY": "REPLACE_WITH_ALPHAVANTAGE_API_KEY"
+      }
+    }
+  }
+}

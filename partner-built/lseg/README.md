@@ -2,6 +2,13 @@
 
 Price bonds, analyze yield curves, evaluate FX carry trades, value options, and build macro dashboards using LSEG financial data and analytics.
 
+## Retail Notice (No Subscription)
+
+This plugin is subscription-first. If you do not have LSEG credentials and entitlements, commands in this plugin will not return data.
+
+- For retail/free alternatives, see `partner-built/lseg/RETAIL_FALLBACK.md`.
+- For a working free connector setup, see `financial-analysis/RETAIL_FREE_MODE.md`.
+
 ## What This Plugin Does
 
 This plugin packages LSEG's financial analytics MCP tools into 8 high-level workflows that stitch together multiple tool calls for common financial analysis tasks. Instead of calling individual tools one at a time, each command orchestrates 4-5 tools into a cohesive analysis.

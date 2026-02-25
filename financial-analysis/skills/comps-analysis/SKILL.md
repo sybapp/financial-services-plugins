@@ -23,14 +23,17 @@ description: |
 
 ## ⚠️ CRITICAL: Data Source Priority (READ FIRST)
 
-**ALWAYS follow this data source hierarchy:**
+Use the best available data tier without blocking the analysis:
 
-1. **FIRST: Check for MCP data sources** - If S&P Kensho MCP, FactSet MCP, or Daloopa MCP are available, use them exclusively for financial and trading information
-2. **DO NOT use web search** if the above MCP data sources are available
-3. **ONLY if MCPs are unavailable:** Then use Bloomberg Terminal, SEC EDGAR filings, or other institutional sources
-4. **NEVER use web search as a primary data source** - it lacks the accuracy, audit trails, and reliability required for institutional-grade analysis
+1. **Default (retail/free mode):** use this free-source stack:
+   - SEC EDGAR filings for reported financials
+   - Free market data APIs (e.g., Alpha Vantage, Twelve Data) for prices and ratios
+   - Yahoo Finance or company IR pages for estimate/transcript cross-checks
+2. **If institutional MCP data is available** (S&P Kensho, FactSet, Daloopa), it can be used as an enhancement layer.
+3. **Web search is allowed** only to locate primary sources and verify recency; do not rely on a single secondary article for hard numbers.
+4. **Always document source + access date** in comments/notes for every hardcoded input.
 
-**Why this matters:** MCP sources provide verified, institutional-grade data with proper citations. Web search results can be outdated, inaccurate, or unreliable for financial analysis.
+**Why this matters:** the goal is traceable, reproducible analysis whether you have enterprise subscriptions or only public/free data access.
 
 ---
 
@@ -236,10 +239,10 @@ Same structure as operating section: Max, 75th, Median, 25th, Min for every metr
 ### Required Components
 
 **Data Sources & Quality:**
-- Where did the data come from? (S&P Kensho MCP, FactSet MCP, Daloopa MCP, Bloomberg, SEC filings)
+- Where did the data come from? (institutional MCP tools OR SEC EDGAR + free APIs + company IR pages)
 - What period does it cover? (Q4 2024, audited figures)
 - How was it verified? (Cross-checked against 10-K/10-Q)
-- Note: Prioritize MCP data sources (S&P Kensho, FactSet, Daloopa) if available for better accuracy and traceability
+- Note: If institutional MCP is unavailable, free/public sources are acceptable when cited clearly and cross-checked
 
 **Key Definitions:**
 - EBITDA calculation method (Gross Profit + D&A, or Operating Income + D&A)
@@ -324,9 +327,9 @@ If you have more than 15 metrics, you're probably including noise. Edit ruthless
 2. **Add cell comments to ALL hard-coded inputs** - Right-click cell → Insert Comment → Document source OR assumption
 
    **For sourced data, cite exactly where it came from:**
-   - Example: "Bloomberg Terminal - MSFT Equity DES, accessed 2024-10-02"
+   - Example: "Yahoo Finance historical data (MSFT), accessed 2024-10-02"
    - Example: "Q4 2024 10-K filing, page 42, line item 'Total Revenue'"
-   - Example: "FactSet consensus estimate as of 2024-10-02"
+   - Example: "Yahoo Finance analyst estimates page as of 2024-10-02"
    - **Include hyperlinks when possible**: Right-click cell → Link → paste URL to SEC filing, data source, or report
 
    **For assumptions, explain the reasoning:**
@@ -407,7 +410,7 @@ This helps answer: "Is our target company trading rich or cheap vs. peers?"
    - Lock in units and date references
 
 2. **Gather data** (60-90 minutes)
-   - Pull from primary sources (S&P Kensho MCP, FactSet MCP, Daloopa MCP if available; otherwise Bloomberg, SEC)
+   - Pull from primary sources (institutional MCP if available; otherwise SEC EDGAR + free market data APIs + company IR)
    - Input all raw numbers in blue
    - Document sources in notes section
 
@@ -436,7 +439,7 @@ This helps answer: "Is our target company trading rich or cheap vs. peers?"
 ### Pro Tips
 - **Save templates**: Build once, reuse forever
 - **Color-code outliers**: Conditional formatting for values >2 standard deviations
-- **Link to source files**: Hyperlink to Bloomberg screenshots or SEC filings
+- **Link to source files**: Hyperlink to SEC filings, company IR pages, or other primary documents used
 - **Version control**: Save as "Comps_v1_2024-12-15" with clear dating
 - **Collaborative reviews**: Have someone else check your formulas
 
@@ -606,7 +609,7 @@ Before delivering a comp analysis, verify:
 - [ ] Units are clearly labeled (millions/billions)
 - [ ] Formulas reference cells, not hardcoded values
 - [ ] **All hard-coded input cells have comments with either: (1) exact data source with citation, OR (2) clear assumption with explanation**
-- [ ] **Hyperlinks added where relevant** (SEC EDGAR filings, Bloomberg pages, research reports)
+- [ ] **Hyperlinks added where relevant** (SEC EDGAR filings, company IR pages, research reports)
 - [ ] Statistics include at least 5 metrics (Max, 75th, Med, 25th, Min)
 - [ ] Notes section documents sources and methodology
 - [ ] Visual formatting follows conventions (blue = input, black = formula)

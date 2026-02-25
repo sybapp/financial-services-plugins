@@ -2,6 +2,13 @@
 
 This plugin brings S&P Global's financial data and analytics directly into your AI workflow via a set of pre-built skills. It is designed for financial professionals who want AI-assisted research, analysis, and document generation grounded in authoritative S&P Global data.
 
+## Retail Notice (No Subscription)
+
+This plugin is subscription-first. If you do not have S&P Global access (Capital IQ Pro or LLM-ready API), skills in this plugin will not return live data.
+
+- For retail/free alternatives, see `partner-built/spglobal/RETAIL_FALLBACK.md`.
+- For a working free connector setup, see `financial-analysis/RETAIL_FREE_MODE.md`.
+
 The skills are built on open standards (MCP) and are designed to work across AI platforms and agent frameworks. While the plugin follows the Claude Cowork standard, all skills and the underlying data layer are platform-agnostic. If you want to use these skills in another environment, please do.
 
 We recognize that every organization has unique needs. These skills are starting points to get you started on your finished products. We encourage you to adapt the prompts, outputs, and workflows to fit your firm's specific processes, templates, and data needs.

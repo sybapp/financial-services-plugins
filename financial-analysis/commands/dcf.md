@@ -35,7 +35,7 @@ Use `skill: "comps-analysis"` to:
 **Load the dcf-model skill** to construct the valuation:
 
 Use `skill: "dcf-model"` to:
-1. Gather historical financials and market data
+1. Gather historical financials and market data (default to SEC EDGAR + free market data APIs; use institutional MCP only as optional enhancement)
 2. Build revenue projections (Bear/Base/Bull cases)
 3. Model operating expenses and FCF
 4. Calculate WACC using CAPM

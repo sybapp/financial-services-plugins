@@ -121,6 +121,27 @@ All connectors are centralized in the **financial analysis** core plugin and sha
 
 > MCP access may require a subscription or API key from the respective provider.
 
+## Retail / Free Data Mode
+
+If you're an individual investor without institutional subscriptions, you can still use the core workflows with free/public data.
+
+### Quick Start
+
+```bash
+cp financial-analysis/.mcp.json financial-analysis/.mcp.paid.backup.json
+cp financial-analysis/.mcp.retail.example.json financial-analysis/.mcp.json
+```
+
+Then replace placeholder API keys in `financial-analysis/.mcp.json`.
+
+See `financial-analysis/RETAIL_FREE_MODE.md` for setup details, source mapping, and known capability gaps.
+
+### Recommended Plugin Set for Retail Users
+
+- Install: `financial-analysis`, `equity-research`, `investment-banking`, `private-equity`, `wealth-management`
+- Skip by default (subscription-first partner plugins): `partner-built/lseg`, `partner-built/spglobal`
+- If needed, see partner fallback guides: `partner-built/lseg/RETAIL_FALLBACK.md`, `partner-built/spglobal/RETAIL_FALLBACK.md`
+
 ## Making Them Yours
 
 These plugins are starting points. They become much more useful when you customize them for how your firm actually works:

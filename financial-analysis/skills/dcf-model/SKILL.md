@@ -54,9 +54,10 @@ These constraints apply throughout all DCF model building. Review before startin
 Fetch data from MCP servers, user provided data, and the web.
 
 **Data Sources Priority:**
-1. **MCP Servers** (if configured) - Structured financial data from providers like Daloopa
-2. **User-Provided Data** - Historical financials from their research
-3. **Web Search/Fetch** - Current prices, beta, debt and cash when needed
+1. **Free/Public Data Stack (retail default)** - SEC EDGAR filings, Alpha Vantage/Twelve Data, Yahoo Finance, and company IR pages.
+2. **Institutional MCP Servers (optional enhancement)** - Structured data from providers like Daloopa/FactSet/S&P.
+3. **User-Provided Data** - Historical financials and assumptions from user research.
+4. **Web Search/Fetch** - Locate primary documents, verify dates, and fill non-critical context gaps with citations.
 
 **Validation Checklist:**
 - Verify net debt vs net cash (critical for valuation)
@@ -1147,7 +1148,7 @@ This approach centralizes scenario logic, making the model easier to audit and m
    - Request from user if specific data is needed
 
 2. **Gather historical financials**:
-   - Check for available MCP servers (Daloopa, etc.)
+   - Check for available MCP servers (institutional or free/public)
    - Request from user if not available via MCP
    - Manual extraction from 10-Ks if necessary
 
@@ -1186,10 +1187,10 @@ This approach centralizes scenario logic, making the model easier to audit and m
 
 ### Available Data Sources
 
-- **MCP servers**: If configured (Daloopa for historical financials)
+- **MCP servers**: If configured (institutional or free/public MCP tools)
 - **Web search/fetch**: For current stock prices, beta, and market data
 - **User-provided data**: Historical financials, consensus estimates
-- **Manual extraction**: SEC EDGAR filings as fallback
+- **Manual extraction**: SEC EDGAR filings and company IR materials
 
 ## Final Output Checklist
 

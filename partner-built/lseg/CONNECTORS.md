@@ -2,6 +2,10 @@
 
 This plugin connects to the **LFA MCP Server**, which provides financial analytics tools from LSEG (London Stock Exchange Group). All tools are served by a single MCP server — no additional connectors are needed.
 
+## Retail Notice (No Subscription)
+
+Without LSEG credentials/entitlements, these tools are unavailable. For free-source replacements by workflow, see `partner-built/lseg/RETAIL_FALLBACK.md`.
+
 ## How Commands Reference Tools
 
 Commands in this plugin reference MCP tools by their exact tool name (e.g., `bond_price`, `interest_rate_curve`). The tools are organized into categories for clarity:

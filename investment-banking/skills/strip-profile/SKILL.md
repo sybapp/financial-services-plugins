@@ -14,8 +14,8 @@ description: |
 ### 2. Research & Planning
 **Data Sources:**
 - **Primary**: Company filings (BamSEC, SEC EDGAR - "Item 1. Business", MD&A), investor presentations, corporate website
-- **Market data**: Bloomberg, FactSet, CapIQ (price, shares, market cap, net debt, EV, ownership)
-- **Estimates**: FactSet/CapIQ consensus for NTM revenue, EBITDA, EPS
+- **Market data**: Yahoo Finance, Alpha Vantage, Twelve Data, SEC filings (price, shares, market cap, net debt, EV, ownership)
+- **Estimates**: Yahoo Finance or other free/public sources for NTM revenue, EBITDA, EPS
 - **News**: Press releases from last 90 days, M&A activity, guidance changes
 
 **Required Metrics:**

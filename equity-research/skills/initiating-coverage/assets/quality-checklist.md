@@ -109,7 +109,7 @@ Before delivering an initiation report, verify all items below are complete.
 - [ ] Press releases hyperlinked to company IR page
 - [ ] Presentations hyperlinked to PDF URLs
 - [ ] Industry reports hyperlinked (if publicly available)
-- [ ] Subscription data (Bloomberg, FactSet) noted as "(subscription required)"
+- [ ] If paid/proprietary data is used, it is clearly labeled with access constraints
 - [ ] No raw URLs displayed anywhere - all formatted as hyperlinks
 - [ ] Test 3-5 sample hyperlinks to ensure they work (Ctrl+Click)
 

@@ -137,7 +137,7 @@ For tables with multiple data sources:
 ```
 Figure X - [Descriptive Title]
 [Table content]
-Source: Company filings, FactSet, [Firm Name] estimates.
+Source: Company filings, free/public data, [Firm Name] estimates.
 ```
 
 ### Placement Guidelines
@@ -655,7 +655,7 @@ Median                   XX.X     X.Xx     X.Xx     XX.X       XX.X       XX%   
 25th Percentile          XX.X     X.Xx     X.Xx     XX.X       XX.X       XX%     XX%
 Min                      XX.X     X.Xx     X.Xx     XX.X       XX.X       XX%     XX%
 
-Source: FactSet, company filings, [Firm Name] estimates.
+Source: Free/public data, company filings, [Firm Name] estimates.
 ```
 
 **Implied Valuation**
@@ -673,7 +673,7 @@ Date        Target       Acquirer      Deal      EV/Rev   EV/EBITDA  Premium
 ────────────────────────────────────────────────────────────────────
 Median                                          X.Xx     XX.X       XX%
 
-Source: Capital IQ, company filings, [Firm Name] estimates.
+Source: SEC filings/public deal disclosures, company filings, [Firm Name] estimates.
 ```
 
 **Control Premium Analysis**

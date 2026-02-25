@@ -182,7 +182,7 @@ After SEARCHING FOR and confirming the latest quarter, collect the following:
   - From last earnings update or initiation report
   - Check what was estimated for this quarter's metrics
 
-- **Consensus estimates** - From Bloomberg, FactSet, Refinitiv, or Yahoo Finance
+- **Consensus estimates** - From Yahoo Finance or other free/public sources (use institutional terminals only if already available)
   - CRITICAL: Use estimates from BEFORE earnings release
   - Look for "as of [date before earnings]" to ensure pre-announcement consensus
   - Needed for beat/miss analysis

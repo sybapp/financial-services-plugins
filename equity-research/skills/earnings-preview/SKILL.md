@@ -7,7 +7,7 @@ description: Build pre-earnings analysis with estimate models, scenario framewor
 ### Step 1: Gather Context
 
 - Identify the company and reporting quarter
-- Pull consensus estimates via web search (revenue, EPS, key segment metrics)
+- Pull consensus estimates from free/public sources (Yahoo Finance, etc.) via web search (revenue, EPS, key segment metrics)
 - Find the earnings date and time (pre-market vs. after-hours)
 - Review the company's prior quarter earnings call for any guidance or commentary
 

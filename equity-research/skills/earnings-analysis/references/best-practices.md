@@ -125,7 +125,7 @@ Before delivering earnings update, verify all items below:
 - [ ] Source citations include page numbers or slide numbers where applicable
 
 **Beat/Miss Citations:**
-- [ ] Beat/miss analysis cites consensus source (Bloomberg, FactSet, etc.)
+- [ ] Beat/miss analysis cites consensus source (Yahoo Finance or other free/public sources, or institutional terminals)
 - [ ] Consensus source includes "as of" date (pre-earnings close)
 - [ ] Company reported results cited to earnings release or 10-Q
 
@@ -153,7 +153,7 @@ Before delivering earnings update, verify all items below:
 - [ ] "Sources & References" section included at end of report
 - [ ] Section lists all earnings materials with dates
 - [ ] All materials have clickable hyperlinks
-- [ ] Consensus data sources listed (even if no link for subscription data)
+- [ ] Consensus data sources listed with date and access path
 - [ ] Prior period references included
 
 ### Accuracy Checklist

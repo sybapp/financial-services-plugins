@@ -73,7 +73,7 @@ Each week, generate a forward-looking summary:
 
 ## Important Notes
 
-- Earnings dates shift — verify against company IR pages and Bloomberg/FactSet closer to the date
+- Earnings dates shift — verify against company IR pages, SEC filings, and free calendars (e.g., Yahoo Finance) closer to the date
 - Pre-announce risk: track companies with a history of pre-announcing (positive or negative)
 - Conference attendance lists are valuable — which companies are presenting and which are conspicuously absent?
 - Some catalysts are recurring (monthly industry data) — build a template and auto-populate

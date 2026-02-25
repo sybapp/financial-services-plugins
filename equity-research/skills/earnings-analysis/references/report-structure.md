@@ -343,7 +343,7 @@ Source: [Firm Name] estimates
 ```
 Revenue of $2.45B beat consensus of $2.39B by $60M (2.5%)¹
 
-¹ Bloomberg consensus as of market close November 6, 2024; Company earnings release November 7, 2024
+¹ Yahoo Finance analyst estimate snapshot as of market close November 6, 2024; Company earnings release November 7, 2024
   [Hyperlink "earnings release" to: https://investor.company.com/news/q3-2024-earnings]
 ```
 
