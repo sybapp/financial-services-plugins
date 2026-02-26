@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deal Sourcing"
+  short_description: "PE deal sourcing workflow — discover target companies, check..."
+  default_prompt: "Use $deal-sourcing to complete this request with a structured workflow."

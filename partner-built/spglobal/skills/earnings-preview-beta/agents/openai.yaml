@@ -1,0 +1,4 @@
+interface:
+  display_name: "Earnings Preview Single"
+  short_description: "Generate a concise 4-5 page equity research earnings preview..."
+  default_prompt: "Use $earnings-preview-single to complete this request with a structured workflow."

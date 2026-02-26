@@ -1,0 +1,4 @@
+interface:
+  display_name: "Model Update"
+  short_description: "Update financial models with new data — quarterly earnings, m..."
+  default_prompt: "Use $model-update to complete this request with a structured workflow."

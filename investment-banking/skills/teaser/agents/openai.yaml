@@ -1,0 +1,4 @@
+interface:
+  display_name: "Teaser"
+  short_description: "Draft anonymous one-page company teasers for sell-side M&A pr..."
+  default_prompt: "Use $teaser to complete this request with a structured workflow."

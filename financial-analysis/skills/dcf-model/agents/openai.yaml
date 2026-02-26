@@ -1,0 +1,4 @@
+interface:
+  display_name: "DCF Model"
+  short_description: "Real DCF (Discounted Cash Flow) model creation for equity val..."
+  default_prompt: "Use $dcf-model to complete this request with a structured workflow."

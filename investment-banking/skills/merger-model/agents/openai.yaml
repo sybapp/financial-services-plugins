@@ -1,0 +1,4 @@
+interface:
+  display_name: "Merger Model"
+  short_description: "Build accretion/dilution analysis for M&A transactions."
+  default_prompt: "Use $merger-model to complete this request with a structured workflow."

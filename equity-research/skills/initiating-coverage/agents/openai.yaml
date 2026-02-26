@@ -1,0 +1,4 @@
+interface:
+  display_name: "Initiating Coverage"
+  short_description: "Create institutional-quality equity research initiation repor..."
+  default_prompt: "Use $initiating-coverage to complete this request with a structured workflow."

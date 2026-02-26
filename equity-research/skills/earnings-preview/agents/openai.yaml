@@ -1,0 +1,4 @@
+interface:
+  display_name: "Earnings Preview"
+  short_description: "Build pre-earnings analysis with estimate models, scenario fr..."
+  default_prompt: "Use $earnings-preview to complete this request with a structured workflow."

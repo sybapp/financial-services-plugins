@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bond Relative Value"
+  short_description: "Perform relative value analysis on bonds by combining pricing..."
+  default_prompt: "Use $bond-relative-value to complete this request with a structured workflow."

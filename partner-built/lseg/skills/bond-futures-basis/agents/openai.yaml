@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bond Futures Basis"
+  short_description: "Analyze the bond futures basis by pricing futures, identifyin..."
+  default_prompt: "Use $bond-futures-basis to complete this request with a structured workflow."

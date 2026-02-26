@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tax Loss Harvesting"
+  short_description: "Identify tax-loss harvesting opportunities across taxable acc..."
+  default_prompt: "Use $tax-loss-harvesting to complete this request with a structured workflow."

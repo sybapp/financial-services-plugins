@@ -1,0 +1,4 @@
+interface:
+  display_name: "Returns Analysis"
+  short_description: "Build quick IRR/MOIC sensitivity tables for PE deal evaluation."
+  default_prompt: "Use $returns-analysis to complete this request with a structured workflow."

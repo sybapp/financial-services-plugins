@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deal Tracker"
+  short_description: "Track multiple live deals with milestones, deadlines, action..."
+  default_prompt: "Use $deal-tracker to complete this request with a structured workflow."

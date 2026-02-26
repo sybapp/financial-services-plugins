@@ -1,0 +1,4 @@
+interface:
+  display_name: "3 Statements"
+  short_description: "Complete, populate and fill out 3-statement financial model t..."
+  default_prompt: "Use $3-statements to complete this request with a structured workflow."

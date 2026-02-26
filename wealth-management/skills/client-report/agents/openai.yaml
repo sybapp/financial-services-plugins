@@ -1,0 +1,4 @@
+interface:
+  display_name: "Client Report"
+  short_description: "Generate professional client-facing performance reports with..."
+  default_prompt: "Use $client-report to complete this request with a structured workflow."

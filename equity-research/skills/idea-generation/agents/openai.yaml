@@ -1,0 +1,4 @@
+interface:
+  display_name: "Idea Generation"
+  short_description: "Systematic stock screening and investment idea sourcing."
+  default_prompt: "Use $idea-generation to complete this request with a structured workflow."

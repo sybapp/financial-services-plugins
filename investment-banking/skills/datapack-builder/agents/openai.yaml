@@ -1,0 +1,4 @@
+interface:
+  display_name: "Datapack Builder"
+  short_description: "Build professional financial services data packs from various..."
+  default_prompt: "Use $datapack-builder to complete this request with a structured workflow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Option Vol Analysis"
+  short_description: "Analyze option volatility by combining vol surface data, opti..."
+  default_prompt: "Use $option-vol-analysis to complete this request with a structured workflow."

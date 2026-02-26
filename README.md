@@ -1,6 +1,6 @@
-# Claude for Financial Services Plugins
+# Financial Services Skills for Claude and Codex
 
-Plugins that turn Claude into a specialist for financial services — investment banking, equity research, private equity, and wealth management. Built for [Claude Cowork](https://claude.com/product/cowork), also compatible with [Claude Code](https://claude.com/product/claude-code).
+Plugins and skills that turn Claude and Codex into specialists for financial services — investment banking, equity research, private equity, and wealth management. Built for [Claude Cowork](https://claude.com/product/cowork), compatible with [Claude Code](https://claude.com/product/claude-code), and now adapted for Codex Skills.
 
 ## Why Plugins
 
@@ -81,6 +81,32 @@ Once installed, plugins activate automatically. Skills fire when relevant, and s
 /ic-memo [project name]         # Investment committee memo
 /source [criteria]              # Deal sourcing
 /client-review [client]         # Client meeting prep
+```
+
+### Codex Skills
+
+This repository is now Codex-skills compatible:
+
+- Every `SKILL.md` has valid `name` + `description` frontmatter.
+- Every skill folder includes `agents/openai.yaml`.
+- Repository scripts are available under `codex/scripts/`.
+
+Install all skills into local Codex home:
+
+```bash
+python codex/scripts/install_to_codex_home.py
+```
+
+Use symlinks during local development:
+
+```bash
+python codex/scripts/install_to_codex_home.py --link
+```
+
+Validate all skills:
+
+```bash
+python codex/scripts/validate_codex_skills.py
 ```
 
 ## How Plugins Work

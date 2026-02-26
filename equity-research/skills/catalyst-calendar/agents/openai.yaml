@@ -1,0 +1,4 @@
+interface:
+  display_name: "Catalyst Calendar"
+  short_description: "Build and maintain a calendar of upcoming catalysts across a..."
+  default_prompt: "Use $catalyst-calendar to complete this request with a structured workflow."

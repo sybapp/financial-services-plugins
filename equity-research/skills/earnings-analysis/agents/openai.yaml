@@ -1,0 +1,4 @@
+interface:
+  display_name: "Earnings Analysis"
+  short_description: "Create professional equity research earnings update reports (..."
+  default_prompt: "Use $earnings-analysis to complete this request with a structured workflow."

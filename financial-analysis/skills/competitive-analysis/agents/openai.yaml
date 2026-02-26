@@ -1,0 +1,4 @@
+interface:
+  display_name: "Competitive Analysis"
+  short_description: "Framework for competitive landscape analysis across any indus..."
+  default_prompt: "Use $competitive-analysis to complete this request with a structured workflow."

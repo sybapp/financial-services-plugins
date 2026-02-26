@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fx Carry Trade"
+  short_description: "Evaluate FX carry trade opportunities by combining spot rates..."
+  default_prompt: "Use $fx-carry-trade to complete this request with a structured workflow."

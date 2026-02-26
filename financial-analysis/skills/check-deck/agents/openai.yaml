@@ -1,0 +1,4 @@
+interface:
+  display_name: "Check Deck"
+  short_description: "Investment banking presentation quality checker."
+  default_prompt: "Use $check-deck to complete this request with a structured workflow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Swap Curve Strategy"
+  short_description: "Analyze the interest rate swap curve by pricing swaps at mult..."
+  default_prompt: "Use $swap-curve-strategy to complete this request with a structured workflow."

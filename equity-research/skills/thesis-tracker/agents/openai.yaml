@@ -1,0 +1,4 @@
+interface:
+  display_name: "Thesis Tracker"
+  short_description: "Maintain and update investment theses for portfolio positions..."
+  default_prompt: "Use $thesis-tracker to complete this request with a structured workflow."

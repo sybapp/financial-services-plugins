@@ -1,0 +1,4 @@
+interface:
+  display_name: "Portfolio Monitoring"
+  short_description: "Track and analyze portfolio company performance against plan."
+  default_prompt: "Use $portfolio-monitoring to complete this request with a structured workflow."

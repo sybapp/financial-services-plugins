@@ -1,0 +1,4 @@
+interface:
+  display_name: "Morning Note"
+  short_description: "Draft concise morning meeting notes summarizing overnight dev..."
+  default_prompt: "Use $morning-note to complete this request with a structured workflow."

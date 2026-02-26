@@ -1,0 +1,4 @@
+interface:
+  display_name: "Investment Proposal"
+  short_description: "Create professional investment proposals for prospective clie..."
+  default_prompt: "Use $investment-proposal to complete this request with a structured workflow."

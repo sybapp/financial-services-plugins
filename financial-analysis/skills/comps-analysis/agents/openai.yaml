@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fsi Comps Analysis"
+  short_description: "Build institutional-grade comparable company analyses with op..."
+  default_prompt: "Use $fsi-comps-analysis to complete this request with a structured workflow."

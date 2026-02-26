@@ -1,0 +1,4 @@
+interface:
+  display_name: "LBO Model"
+  short_description: "This skill should be used when completing LBO (Leveraged Buyo..."
+  default_prompt: "Use $lbo-model to complete this request with a structured workflow."

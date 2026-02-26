@@ -1,0 +1,4 @@
+interface:
+  display_name: "Buyer List"
+  short_description: "Build and organize a universe of potential acquirers for sell..."
+  default_prompt: "Use $buyer-list to complete this request with a structured workflow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Funding Digest"
+  short_description: "Generate a polished one-page PowerPoint slide summarizing key..."
+  default_prompt: "Use $funding-digest to complete this request with a structured workflow."

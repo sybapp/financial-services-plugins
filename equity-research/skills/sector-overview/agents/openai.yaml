@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sector Overview"
+  short_description: "Create comprehensive industry and sector landscape reports co..."
+  default_prompt: "Use $sector-overview to complete this request with a structured workflow."

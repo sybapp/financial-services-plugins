@@ -1,0 +1,4 @@
+interface:
+  display_name: "Unit Economics"
+  short_description: "Analyze unit economics for PE targets — ARR cohorts, LTV/CAC,..."
+  default_prompt: "Use $unit-economics to complete this request with a structured workflow."

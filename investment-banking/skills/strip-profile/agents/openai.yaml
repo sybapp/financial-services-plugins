@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fsi Strip Profile"
+  short_description: "Creates professional investment banking strip profiles (compa..."
+  default_prompt: "Use $fsi-strip-profile to complete this request with a structured workflow."

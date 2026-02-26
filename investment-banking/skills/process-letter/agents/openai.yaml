@@ -1,0 +1,4 @@
+interface:
+  display_name: "Process Letter"
+  short_description: "Draft process letters and bid instructions for sell-side M&A..."
+  default_prompt: "Use $process-letter to complete this request with a structured workflow."

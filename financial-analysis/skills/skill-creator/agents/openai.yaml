@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Creator"
+  short_description: "Guide for creating effective skills."
+  default_prompt: "Use $skill-creator to complete this request with a structured workflow."

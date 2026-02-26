@@ -1,0 +1,4 @@
+interface:
+  display_name: "Financial Plan"
+  short_description: "Build or update a comprehensive financial plan covering retir..."
+  default_prompt: "Use $financial-plan to complete this request with a structured workflow."

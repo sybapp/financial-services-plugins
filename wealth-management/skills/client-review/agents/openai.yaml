@@ -1,0 +1,4 @@
+interface:
+  display_name: "Client Review"
+  short_description: "Prepare for client review meetings with portfolio performance..."
+  default_prompt: "Use $client-review to complete this request with a structured workflow."

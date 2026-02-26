@@ -1,0 +1,4 @@
+interface:
+  display_name: "Value Creation Plan"
+  short_description: "Structure post-acquisition value creation plans with revenue,..."
+  default_prompt: "Use $value-creation-plan to complete this request with a structured workflow."

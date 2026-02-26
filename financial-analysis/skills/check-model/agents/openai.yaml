@@ -1,0 +1,4 @@
+interface:
+  display_name: "Check Model"
+  short_description: "Debug and audit financial models for errors — circular refere..."
+  default_prompt: "Use $check-model to complete this request with a structured workflow."

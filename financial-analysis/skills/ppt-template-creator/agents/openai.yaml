@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT Template Creator"
+  short_description: "Creates self-contained PPT template SKILLS (not presentations..."
+  default_prompt: "Use $ppt-template-creator to complete this request with a structured workflow."

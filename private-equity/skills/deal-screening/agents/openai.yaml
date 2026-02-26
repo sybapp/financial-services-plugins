@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deal Screening"
+  short_description: "Quickly screen inbound deal flow — CIMs, teasers, and broker..."
+  default_prompt: "Use $deal-screening to complete this request with a structured workflow."

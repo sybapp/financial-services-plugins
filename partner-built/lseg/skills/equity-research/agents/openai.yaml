@@ -1,0 +1,4 @@
+interface:
+  display_name: "Equity Research"
+  short_description: "Generate comprehensive equity research snapshots combining an..."
+  default_prompt: "Use $equity-research to complete this request with a structured workflow."

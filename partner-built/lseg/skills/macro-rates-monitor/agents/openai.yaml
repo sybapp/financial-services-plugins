@@ -1,0 +1,4 @@
+interface:
+  display_name: "Macro Rates Monitor"
+  short_description: "Build macroeconomic and rates dashboards combining macro indi..."
+  default_prompt: "Use $macro-rates-monitor to complete this request with a structured workflow."

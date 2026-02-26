@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dd Checklist"
+  short_description: "Generate and track comprehensive due diligence checklists tai..."
+  default_prompt: "Use $dd-checklist to complete this request with a structured workflow."

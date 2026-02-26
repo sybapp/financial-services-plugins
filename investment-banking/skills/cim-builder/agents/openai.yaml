@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cim Builder"
+  short_description: "Structure and draft a Confidential Information Memorandum for..."
+  default_prompt: "Use $cim-builder to complete this request with a structured workflow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dd Meeting Prep"
+  short_description: "Prepare for due diligence meetings — management presentations..."
+  default_prompt: "Use $dd-meeting-prep to complete this request with a structured workflow."

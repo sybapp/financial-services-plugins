@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fixed Income Portfolio"
+  short_description: "Review fixed income portfolios by pricing multiple bonds, ret..."
+  default_prompt: "Use $fixed-income-portfolio to complete this request with a structured workflow."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Portfolio Rebalance"
+  short_description: "Analyze portfolio allocation drift and generate rebalancing t..."
+  default_prompt: "Use $portfolio-rebalance to complete this request with a structured workflow."

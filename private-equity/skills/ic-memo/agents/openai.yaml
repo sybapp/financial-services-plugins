@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ic Memo"
+  short_description: "Draft a structured investment committee memo for PE deal appr..."
+  default_prompt: "Use $ic-memo to complete this request with a structured workflow."

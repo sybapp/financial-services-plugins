@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tear Sheet"
+  short_description: "Generate professional company tear sheets using S&P Capital I..."
+  default_prompt: "Use $tear-sheet to complete this request with a structured workflow."
